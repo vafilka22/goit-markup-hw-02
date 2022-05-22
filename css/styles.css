@@ -1,0 +1,140 @@
+/*
+background: #ffffff;
+color: #2f303a;
+color: #212121;
+color: #2196f3;
+color: #757575;*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* шапка профіля */
+
+.logo {
+  color: black;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.8;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.adres-nav .link:hover,
+.adres-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.accent-logo {
+  color: var(--accent-color);
+}
+
+/* заголовок */
+
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+}
+.button {
+  background: var(--accent-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* характеристики */
+
+.basic-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  color: var(--title-text-color);
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* робота */
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+}
+
+/* команда */
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  color: var(--title-text-color);
+}
+.caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+}
+.caption-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* футер */
+
+.footer {
+  background: #2f303a;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.8;
+  color: var(--primary-white-color);
+}
+.address {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+}
+
+
+/*Портфоліщ*/
+
+
