@@ -49,6 +49,9 @@ ul {
   font-size: 14px;
   line-height: 1.1;
 }
+.adres-link {
+  color: var(--primary-text-color);
+}
 
 .accent-logo {
   color: var(--accent-color);
@@ -71,6 +74,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
+  font-family: Roboto, sans-serif;
 }
 
 /* характеристики */
@@ -134,7 +138,32 @@ ul {
   font-style: normal;
 }
 
+/*Портфоліо*/
 
-/*Портфоліщ*/
+/* меню кнопок */
+.button-tap {
+  color: var(--title-text-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Roboto, sans-serif;
+}
+.button-tap:hover,
+.button-tap:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
 
-
+/* меню зображень */
+.subject {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.text-subject {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+}
