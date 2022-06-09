@@ -25,6 +25,21 @@ ul {
   list-style: none;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
 /* шапка профіля */
 
 .logo {
@@ -77,6 +92,15 @@ ul {
   line-height: 1.8;
   font-family: Roboto, sans-serif;
   cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+
+  outline: 2px solid rebeccapurple;
 }
 
 /* характеристики */
